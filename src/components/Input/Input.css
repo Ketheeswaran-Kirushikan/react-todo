@@ -1,0 +1,14 @@
+.inputType {
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .inputType::placeholder {
+    color: #000000 !important; 
+    font-style: italic;
+  }
+  

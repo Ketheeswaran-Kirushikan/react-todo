@@ -1,0 +1,9 @@
+.textArea {
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  

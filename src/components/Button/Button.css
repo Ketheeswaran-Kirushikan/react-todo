@@ -1,0 +1,11 @@
+.buttonWork{
+    width: 200px;
+    height: 40px;
+    background-color: hsl(229, 84%, 5%);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    margin-top: 20px;
+}
