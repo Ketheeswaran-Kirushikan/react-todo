@@ -9,3 +9,21 @@
     font-weight: 700;
     margin-top: 20px;
 }
+
+
+.calculateButton{
+    font-size: 40px;
+    background-color:rgb(6, 68, 47);
+    color:white;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.colorButton{
+    width:100px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-style: none;
+    height: 40px;
+}

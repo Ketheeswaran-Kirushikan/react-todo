@@ -1,12 +1,21 @@
 import React from 'react';
-import './Button.css'
+import './Button.css';
 
 const Button = (props) => {
+  const handleClick = () => {
+    if (props.onClick) {
+      props.onClick();
+    }
+  };
+
   return (
     <div>
-        <button className='buttonWork'>{props.name}</button>
+      <button className={props.className} onClick={handleClick}>
+        {props.name}
+      </button>
     </div>
-  )
-}
+  );
+};
 
 export default Button;
+

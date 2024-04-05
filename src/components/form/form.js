@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Input from '../../components/Input/Input';
-import Textarea from '../../components/textarea/Textarea';
-import Radio from '../../components/radiobutton/Radio';
-import './form.css'
-import Button from '../../components/Button/Button';
+import Input from '../Input/Input';
+import Textarea from '../textarea/Textarea';
+import Radio from '../radiobutton/Radio';
+import './form.css';
+import Button from '../Button/Button'
 
 const Form = () => {
   const [progress, setProgress] = useState('finished');
@@ -44,7 +44,7 @@ const Form = () => {
       />
       </div>
       <Textarea placeholder="Description" id="textarea" rows="4" cols="55" />
-      <Button name="Save"/>
+      <Button name="Save" className="buttonWork"/>
     </div>
   );
 };
