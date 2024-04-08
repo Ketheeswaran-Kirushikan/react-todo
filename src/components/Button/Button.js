@@ -1,6 +1,7 @@
 import React from 'react';
 import './Button.css';
 
+
 const Button = (props) => {
   const handleClick = () => {
     if (props.onClick) {
@@ -11,11 +12,10 @@ const Button = (props) => {
   return (
     <div>
       <button className={props.className} onClick={handleClick}>
-        {props.name}
+        {props.icon && <props.icon className={props.className} />}{props.name}
       </button>
     </div>
   );
 };
 
 export default Button;
-

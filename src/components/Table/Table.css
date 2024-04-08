@@ -1,0 +1,19 @@
+.border-work{
+    border: 1px solid rgb(177, 177, 177);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #1e293b;
+    color: white;
+}
+
+.table thead tr.head-color th {
+    background-color: rgb(175, 175, 175);
+}
+
+.Link-tag{
+    text-decoration: none !important;
+    list-style: none !important;
+}

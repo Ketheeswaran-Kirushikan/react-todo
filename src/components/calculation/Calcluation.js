@@ -12,7 +12,7 @@ const Calculation = () => {
     };
     return (
         <div className='formWork'>
-            <h1>Todo-List</h1>
+            <h1>Calculation</h1>
             <span style={{fontSize: '50px'}}>{count}</span>
             <Button name="-" className="calculateButton" onClick={decrementCount} />
             <Button name="+" className="calculateButton" onClick={incrementCount} />

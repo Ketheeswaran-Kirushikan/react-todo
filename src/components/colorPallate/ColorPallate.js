@@ -15,7 +15,7 @@ const ColorPallate = () => {
     };
     return (
         <div className='formWork'>
-            <h1>Todo-List</h1>
+            <h1>Color-pallate</h1>
             <span>
                 <div style={{backgroundColor:color,height:'100px',width:'100px',border:'1px solid black'}}>
                 </div>

@@ -14,7 +14,7 @@ const Form = () => {
   };
 
   return (
-    <div className='formWork'>
+    <div className='registerWork'>
       <h1>User Registration</h1>
       <Input placeholder="First Name" inputId="first-name" type="text" />
       <Input placeholder="Last Name" inputId="last-name" type="text" />
@@ -44,7 +44,7 @@ const Form = () => {
           onChange={() => handleProgressChange('Others')}
         />
       </div>
-      <Button name="Save" class="buttonWork" />
+      <Button name="Save" className="buttonWork" />
     </div>
   );
 };

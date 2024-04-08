@@ -1,4 +1,4 @@
-.formWork {
+.registerWork {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,11 @@
     background-color: white;
   }
   
-  .formWork > * {
+  .registerWork > * {
     margin-bottom: 10px;
   }
   
+  .radioButton{
+    text-align: left !important;
+    margin-left: -310px;
+  }

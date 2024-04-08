@@ -27,3 +27,99 @@
     border-style: none;
     height: 40px;
 }
+
+.icon-button {
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 70, 243);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease; 
+}
+
+.icon-button:hover {
+    background-color: rgb(50, 50, 223);
+}
+.edit-button {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(12, 133, 8);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edit-button svg {
+    height: 20px;
+    width: 20px;
+    transition: background-color 0.3s ease;
+    padding: 0px;
+    margin: 0px;
+}
+
+.edit-button:hover {
+    background-color: rgb(2, 113, 8);
+}
+
+.edit-button:hover svg {
+    background-color: rgb(2, 113, 8);
+}
+
+.delete-button {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(122, 7, 7);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.delete-button svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: rgb(113, 2, 2);
+}
+
+.delete-button:hover svg {
+    background-color: rgb(113, 2, 2);
+}
+
+.sendButton{
+    width: 200px;
+    height: 40px;
+    background-color: hsla(229, 92%, 46%, 0.664);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+.sendButton:hover {
+    background-color: rgb(2, 32, 113);
+}
